@@ -1,0 +1,62 @@
+Here are all of the ITP classes that are 4 units:
+ 
+ITP 230x: Video Game Quality Assurance (4.0 units)
+Time: 10:00-11:50am, Registered: 8 of 40, Instructor: Tom Sloper
+
+ITP 280: Video Game Production (4.0 units)
+Time: 6:00-8:50pm, Registered: 15 of 36, Instructor: Tom Sloper
+Time: 1:00-2:50pm, Registered: 10 of 17, Instructor: -  
+Time: 3:00-4:50pm, Registered: 5 of 17, Instructor: -  
+
+ITP 301L: Interactive Web Development (4.0 units)
+Time: 2:00-3:20pm, Registered: 18 of 27, Instructor: Nayeon Kim
+Time: 3:30-4:50pm, Registered: 18 of 27, Instructor: -  
+Time: 2:00-3:20pm, Registered: 20 of 29, Instructor: Dung Nguyen
+Time: 3:30-4:50pm, Registered: 20 of 29, Instructor: -  
+
+ITP 320: Enterprise Wide Information Systems (4.0 units)
+Time: 6:00-7:50pm, Registered: 24 of 40, Instructor: Mike Lee
+Time: 10:00-11:50am, Registered: 36 of 60, Instructor: Mike Lee
+
+ITP 350x: Technologies and Practices for Analytics (4.0 units)
+Time: 10:00-11:50am, Registered: 18 of 36, Instructor: Nitin Kalé
+
+ITP 380: Video Game Programming (4.0 units)
+Time: 7:00-8:50pm, Registered: 29 of 43, Instructor: Clark Kromenaker
+Time: 5:00-6:50pm, Registered: 41 of 43, Instructor: Sanjay Madhav
+
+Crosslist ITP 383: Database Systems: Concepts, Design and Implementation (4.0 units)
+Time: 8:00-9:50am, Registered: 36 of 49, Instructor: Nitin Kale
+Time: 9:30-10:50am, Registered: 24 of 24, Instructor: -  
+Time: 8:00-9:20am, Registered: 12 of 25, Instructor: -  
+
+ITP 442: Mobile App Project (4.0 units)
+Time: 5:00-6:50pm, Registered: Canceled, Instructor: Trina Gregory
+
+ITP 457: Network Security (4.0 units)
+Time: 2:00-3:50pm, Registered: 23 of 27, Instructor: Chi So
+
+ITP 460: Web Application Project (4.0 units)
+Time: 5:00-9:00pm, Registered: 15 of 34, Instructor: Bo Wang,Dung Nguyen
+
+ITP 466: Building the High Tech Startup (4.0 units)
+Time: 5:00-8:50pm, Registered: 28 of 30, Instructor: Arpi Mardirossian
+
+ITP 470: Information Technology Practicum (1.0-4.0 units)
+Time: TBA, Registered: 35 of 50, Instructor: Michael Crowley
+
+ITP 475: Advanced Digital Forensics (4.0 units)
+Time: 5:00-6:50pm, Registered: 15 of 27, Instructor: Joseph Greenfield
+
+ITP 476: Technologies for Interactive Marketing (4.0 units)
+Time: 5:00-8:50pm, Registered: 13 of 45, Instructor: Peter Leimgruber
+
+ITP 480: Information Technology Internship (1.0-4.0 units, max 8)
+Time: TBA, Registered: 3 of 10, Instructor: Michael Crowley
+
+ITP 485: Programming Game Engines (4.0 units)
+Time: 6:00-7:50pm, Registered: 34 of 40, Instructor: Matthew Whiting
+
+ITP 491: Level Design and Development for Video Games (4.0 units)
+Time: 7:30-9:20pm, Registered: Canceled, Instructor: Karen McMullan
+
