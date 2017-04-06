@@ -6,7 +6,7 @@ def main():
     while play:
         # Gather information about superhero 1
         name1 = input("Enter fighter #1's name: ")
-        type1 = input("Is fighter #1 a hero or a villan?: ")
+        type1 = input("Is fighter #1 a hero or a villain?: ")
         attack1 = input("Enter fighter#1's attack points: ")
         if attack1.isdigit():
             attack1 = int(attack1)
@@ -19,7 +19,7 @@ def main():
 
         #Gather information about superhero 2
         name2 = input("\nEnter fighter #2's name: ")
-        type2 = input("Is fighter #2 a hero or a villan?: ")
+        type2 = input("Is fighter #2 a hero or a villain?: ")
         attack2 = input("Enter fighter#2's attack points: ")
         if attack2.isdigit():
             attack2 = int(attack2)

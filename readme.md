@@ -10,3 +10,6 @@ This is just a repo for me to be able to keep track of all my programs and if I 
 
 ##Labs 
 * The Labs are in the labs folder 
+
+##Lecture Notes 
+* There are also in this file in a markdown file 

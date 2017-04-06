@@ -3,7 +3,7 @@
 # Assignment 9: OOP Part 2 (Superheros)
 # 4/9/2017
 # Description:
-#
+#   making a simulation of a fight with superheroes
 
 class Superhero(object):
     def __init__(self, name, type, attack):
