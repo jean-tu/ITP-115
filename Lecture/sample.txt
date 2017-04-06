@@ -1,0 +1,3 @@
+This is just a sample text file
+Each should be a new line
+But there should not be any separators
