@@ -35,8 +35,8 @@ def main():
         s2 = Superhero(name2, type2, attack2)
         print("\nFIGHTERS")
         print()
-        print(s1.__str__())
-        print(s2.__str__())
+        print(s1)
+        print(s2)
         print()
 
         print("\nBEGINNING BATTLE")
@@ -47,13 +47,16 @@ def main():
             s1.loseHealth(s2.getAttack())
             s2.loseHealth(s1.getAttack())
             print("============ Round "+ str(roundNumber) + " =============")
-            print(s1.__str__())
-            print(s2.__str__())
+            print(s1)
+            print(s2)
             print()
             roundNumber +=1
         if s1.isDead():
-            print(s2.getName(), "won!")
-        else:
+            if s2.isDead(): #if it's a tie
+                print("IT's a TIE")
+            else:
+                print(s2.getName(), "won!")
+        else: #player 2 is dead
             print(s1.getName(), "won!")
         cont = input("\nWould you like to play again? (y/n): ")
         print()
