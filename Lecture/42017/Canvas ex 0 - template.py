@@ -29,13 +29,13 @@ class Application(Frame):
 
     def keyResponse(self, event):
         if event.keysym == "Up":
-            self.canvas.move(self.player, 0, -10)
+            self.canvas.move(self.player, 0, -30)
         elif event.keysym == "Down":
-            self.canvas.move(self.player, 0, 10)
+            self.canvas.move(self.player, 0, 30)
         elif event.keysym == "Right":
-            self.canvas.move(self.player, 10, 0)
+            self.canvas.move(self.player,30, 0)
         elif event.keysym == "Left":
-            self.canvas.move(self.player, -10, 0)
+            self.canvas.move(self.player, -30, 0)
         self.canvas.update() #to redraw the screen
 
 
@@ -46,8 +46,13 @@ class Application(Frame):
         if coords[0] >= 800:
             self.canvas.move(self.player, -850, 0)
 
+        collisionList = self.canvas.find_overlapping(coords[0], coords[1], coords[2], coords[3])
 
-        self.after(20, self.gameLoop)
+        for collision in collisionList: #collision is the variable/shape
+            if collision != self.player:
+                self.canvas.itemconfig(collision, fill="red", outline="blue")
+
+        self.after(100, self.gameLoop)
 
 
 def main():
