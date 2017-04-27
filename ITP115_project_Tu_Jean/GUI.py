@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter.messagebox
 
 class GUI(Frame):
     def __init__(self, master):
@@ -25,8 +26,15 @@ class GUI(Frame):
         # self.madLibsButton.grid(row=2, column=2)
 
     def createOwn(self): #user decided to create their own story
-        pass
+        tkinter.messagebox.showinfo("Create Own!", "You have chosen to create your own story!")
 
 
     def madLibs(self): #user wanted to do the mad libs version
-        pass
+        tkinter.messagebox.showinfo("MadLibs!", "You have chosen to do a MadLib Story!")
+        #clear the main and start 
+        Lb1 = Listbox(top)
+        Lb1.insert(1, "Python")
+        Lb1.insert(2, "Perl")
+        Lb1.insert(3, "C")
+        Lb1.insert(4, "PHP")
+        Lb1.insert(5, "JSP")
