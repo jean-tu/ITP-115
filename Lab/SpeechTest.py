@@ -5,4 +5,4 @@
 
 from os import system
 
-system("my here")
+system("say My name is Jean")

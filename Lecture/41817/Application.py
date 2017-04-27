@@ -14,7 +14,7 @@ class Application(Frame):
 
         #label
         self.playerLabel = Label(self, text="Enter player name", background="#ffcc00")
-        self.playerLabel.grid(row=0, column=1);
+        self.playerLabel.grid(row=0, column=1)
 
         #player 1 entry
         self.p1Entry = Entry(self)
