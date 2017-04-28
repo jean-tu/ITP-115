@@ -8,7 +8,7 @@ def main():
     root = Tk()
     root.title("Story Time")# set the title
     root.geometry("400x400")# set the size of the window
-    root.configure(background="azure") #Setting the background color
+    root.configure() #Setting the background color
     # create a frame (AKA the cork board for the window, which is invisible when it is just itself)
     # frame = Frame(root)
     # make the frame appear on the screen
