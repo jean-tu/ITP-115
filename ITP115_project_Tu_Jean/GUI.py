@@ -39,7 +39,7 @@ class GUI(Frame):
         self.createOwnButton.grid_remove()
 
         self.selectStoryText= Label(self, text="Please select a story below")
-        self.madLibsStoryList = Listbox(self.__master)
+        self.madLibsStoryList = Listbox(self.__master) #passing in the window to add it
         self.madLibsStoryList.insert(1, "Python")
         self.madLibsStoryList.insert(2, "Perl")
         self.madLibsStoryList.insert(3, "C")
