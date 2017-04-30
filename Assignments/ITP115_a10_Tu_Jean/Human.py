@@ -2,22 +2,22 @@ from Being import Being
 
 class Human(Being):
     def __init__(self, name, quarts, bloodType):
-        super().__init(self, name, quarts) #calling on the superclass init
-        self.__bloodType = bloodType
+        super().__init__(name, quarts) #calling on the superclass init
+        self._bloodType = bloodType
 
     def getBloodType(self):
-        return self.__bloodType
+        return self._bloodType
 
     def setBloodType(self, newType):
-        self.__bloodType = newType
+        self._bloodType = newType
 
     def isAlive(self):
-        if (self.__quarts > 0):
+        if (self._quarts > 0):
             return True
         else:
             return False
 
     def __str__(self):
-        msg = "Human " + self.__name + " has " + str(self.__quarts) + " of type " \
-            + self.__bloodType + " blood."
+        msg = "Human " + self._name + " has " + str(self._quarts) + " of type " \
+            + self._bloodType + " blood."
         return msg
