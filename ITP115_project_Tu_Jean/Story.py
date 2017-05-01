@@ -11,7 +11,7 @@ class Story(object):
         system("say " + story)
 
     def save(self, story, filename): #allows the user to save the file
-        pass
+        # pass
         fileOut = open(filename, "W") #opening the file that the user wants to write to
         print(story, file=fileOut) #writing the story to the file
         fileOut.close() #close the file

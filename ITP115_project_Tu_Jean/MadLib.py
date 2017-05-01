@@ -19,5 +19,5 @@ class MadLib(Story):
             listofStories.append(line)
         return listofStories
 
-    def parser(self):
-        pass
+    def parser(self, story):
+        print("called on the parser function")

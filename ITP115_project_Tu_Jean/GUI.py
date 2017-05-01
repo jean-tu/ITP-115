@@ -1,6 +1,8 @@
 from tkinter import *
 import tkinter.messagebox
+from tkinter.scrolledtext import ScrolledText
 from MadLib import MadLib
+from Story import Story
 
 class GUI(Frame):
     def __init__(self, master):
@@ -33,6 +35,35 @@ class GUI(Frame):
         self.madLibsButton.grid_remove()
         self.createOwnButton.grid_remove()
 
+        #create story object
+        self.story = Story()
+
+        # The default text for the window
+        content = StringVar()
+        self.storyBox = Entry(self, width=40, textvariable=content) #adding it to the box
+        self.storyBox.bind('<FocusIn>', self.on_entry_click)
+        content.set("Story here")
+        self.storyBox.config(fg='grey')
+        self.storyBox.grid()
+
+        self.readButton = Button(self, text="Read aloud", command=self.callRead)
+        self.readButton.grid()
+
+        self.saveLabel = Label(self, text="Enter a filename to save your story")
+        self.saveLabel.grid()
+        self.saveFileName = Entry(self, width=45)
+        self.saveFileName.grid()
+        self.saveButton = Button(self, text="Save Story", command=self.saveStory)
+        self.saveButton.grid()
+
+    def on_entry_click(self, event): #will clear the default text
+        if self.storyBox.get() == "Story here":
+            self.storyBox.delete(0, "end")  # delete all the text in the entry
+            self.storyBox.insert(0, '')  # Insert blank for user input
+            self.storyBox.config(fg='black')
+
+    # def on_focusout(self):
+
     def madLibs(self): #user wanted to do the mad libs version
         tkinter.messagebox.showinfo("MadLibs!", "You have chosen to do a MadLib Story!")
         # clear the main and start
@@ -42,8 +73,8 @@ class GUI(Frame):
         self.createOwnButton.grid_remove()
 
         #create the MadLib object
-        mlObject = MadLib()
-        listofStories = mlObject.getListOfStories()
+        self.mlObject = MadLib()
+        listofStories = self.mlObject.getListOfStories()
 
         self.selectStoryText= Label(self, text="Please select a story below")
         self.madLibsStoryList = Listbox(self.__master) #passing in the window to add it
@@ -54,9 +85,45 @@ class GUI(Frame):
         self.selectStoryButton = Button(self, text="Select", command=self.setSelected)
         self.selectStoryButton.grid()
 
+    def callRead(self):
+        if self.storyBox.get() != "": #will only call on it if the box is filled out
+            self.story.read(self.storyBox.get()) #will read the text
+        else:
+            msg = "Please enter some text to be read!"
+            # self.story.read(msg)  # will read the text to tell the user to enter text
+            tkinter.messagebox.showinfo("Nothing to Read!", msg)
+
+    def saveStory(self):
+        if self.storyBox.get() != "": #will only call on it if the box is filled out
+            self.story.read(self.storyBox.get()) #will read the text
+
+            #get the text from the save box
+            if self.saveFileName.get() != "":
+                #check if the end of the file is a .txt, if not add it
+                fileName = self.saveFileName.get()
+                if ".txt" not in fileName:
+                    fileName += ".txt" #append it at the end
+                self.story.save(self.storyBox.get(), self.saveFileName.get())
+            else:
+                tkinter.messagebox.showinfo("No filename!", "Please enter a filename!")
+
+        else:
+            msg = "Please write a story to be saved!"
+            # self.story.read(msg)  # will read the text to tell the user to enter text
+            tkinter.messagebox.showinfo("Nothing to Save!", msg)
 
     def setSelected(self):
         selected = self.madLibsStoryList.get(ACTIVE)
         print(selected)
-        #call on the next action command from here 
+        #call on the next action command from here
+        self.showStory(selected)
         return selected
+
+    def showStory(self, selectedStory): #this will grab the text from the sotyr
+        storyFile =  open("Stories/" + selectedStory.rstrip(), "r") #go into the folder to get the stories
+        story = "" #starts off blank
+        for line in storyFile:
+            story += line
+        self.mlObject.parser(story)
+
+
