@@ -9,10 +9,7 @@ def main():
     root.title("Story Time")# set the title
     root.geometry("400x400")# set the size of the window
     root.configure() #Setting the background color
-    # create a frame (AKA the cork board for the window, which is invisible when it is just itself)
-    # frame = Frame(root)
-    # make the frame appear on the screen
-    # frame.grid()
+
 
     option = 1  # default to where they do mad libs instead of own
     play = True  # while the user still wants to play

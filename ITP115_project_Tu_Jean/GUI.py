@@ -1,5 +1,6 @@
 from tkinter import *
 import tkinter.messagebox
+from MadLib import MadLib
 
 class GUI(Frame):
     def __init__(self, master):
@@ -28,29 +29,34 @@ class GUI(Frame):
     def createOwn(self): #user decided to create their own story
         tkinter.messagebox.showinfo("Create Own!", "You have chosen to create your own story!")
         self.infoText1.grid_remove() #this is to remove the information text
+        # remove the buttons
         self.madLibsButton.grid_remove()
         self.createOwnButton.grid_remove()
 
     def madLibs(self): #user wanted to do the mad libs version
         tkinter.messagebox.showinfo("MadLibs!", "You have chosen to do a MadLib Story!")
-        #clear the main and start
+        # clear the main and start
         self.infoText1.grid_remove()  # this is to remove the information text
+        # remove the buttons
         self.madLibsButton.grid_remove()
         self.createOwnButton.grid_remove()
 
+        #create the MadLib object
+        mlObject = MadLib()
+        listofStories = mlObject.getListOfStories()
+
         self.selectStoryText= Label(self, text="Please select a story below")
         self.madLibsStoryList = Listbox(self.__master) #passing in the window to add it
-        self.madLibsStoryList.insert(1, "Python")
-        self.madLibsStoryList.insert(2, "Perl")
-        self.madLibsStoryList.insert(3, "C")
-        self.madLibsStoryList.insert(4, "PHP")
-        self.madLibsStoryList.insert(5, "JSP")
-        self.madLibsStoryList.grid()
+        for item in listofStories: #iterate to add
+            self.madLibsStoryList.insert(END, item)
 
+        self.madLibsStoryList.grid()
         self.selectStoryButton = Button(self, text="Select", command=self.setSelected)
         self.selectStoryButton.grid()
 
 
     def setSelected(self):
         selected = self.madLibsStoryList.get(ACTIVE)
+        print(selected)
+        #call on the next action command from here 
         return selected

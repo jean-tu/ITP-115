@@ -10,8 +10,14 @@ class MadLib(Story):
         self.name = ["Alex", "John", "Alice", "Jane", "Bob", "Candice", "Tommy", "Helen"]
         self.place = ["Chicago", "Los Angles", "San Fransisco", "Florida", "Seattle"]
 
-    def getListOfStories(self, master): #will go though the master.txt file to get the file names of the files
-        pass
+    # returns the list of stories for the user to select
+    def getListOfStories(self): #will go though the master.txt file to get the file names of the files
+        listofStories = [] #creating a blank list
+        fileIn = open("Stories/master.txt", "r") #go into the folder to get the stories
+        for line in fileIn:
+            # print(line)
+            listofStories.append(line)
+        return listofStories
 
     def parser(self):
         pass
