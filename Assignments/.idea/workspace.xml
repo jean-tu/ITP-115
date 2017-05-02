@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03e03fee-dacb-4ba6-957f-86334a8a2395" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/excuse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/spice.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/vacations.txt" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/vacations.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Story.py" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Story.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/readme.txt" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/main.py" afterPath="$PROJECT_DIR$/../ITP115_project_Tu_Jean/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="71">
+              <caret line="133" column="33" lean-forward="false" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -35,54 +42,18 @@
       <file leaf-file-name="Story.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Story.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextboxGUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Lecture/Test/TextboxGUI.py">
+      <file leaf-file-name="MadLib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="askQuestionGUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Lecture/Test/askQuestionGUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#20#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="45">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -91,8 +62,38 @@
       <file leaf-file-name="master.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spice.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/spice.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="0" column="190" lean-forward="false" selection-start-line="0" selection-start-column="190" selection-end-line="0" selection-end-column="190" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="greek.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="448" lean-forward="false" selection-start-line="0" selection-start-column="448" selection-end-line="0" selection-end-column="448" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hallpass.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="83" lean-forward="true" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -116,6 +117,11 @@
       <find>entry</find>
       <find>read</find>
       <find>read(</find>
+      <find>showStory</find>
+      <find>save</find>
+      <find>and</find>
+      <find>parser</find>
+      <find>p1Text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,29 +152,31 @@
         <option value="$PROJECT_DIR$/../Lab/demo.txt" />
         <option value="$PROJECT_DIR$/../Lab/SpeechTest.py" />
         <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/pizza.txt" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/vacations.txt" />
         <option value="$PROJECT_DIR$/ITP115_a10_Tu_Jean/Vampire.py" />
         <option value="$PROJECT_DIR$/ITP115_a10_Tu_Jean/Being.py" />
         <option value="$PROJECT_DIR$/ITP115_a10_Tu_Jean/Human.py" />
         <option value="$PROJECT_DIR$/ITP115_a10_Tu_Jean/Game.py" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/main.py" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt" />
         <option value="$PROJECT_DIR$/../Lecture/Test/TextboxGUI.py" />
         <option value="$PROJECT_DIR$/../Lecture/Test/askQuestionGUI.py" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py" />
-        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Story.py" />
         <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/readme.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/main.py" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/vacations.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/excuse.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/spice.txt" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/Story.py" />
+        <option value="$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="62" />
-    <option name="width" value="1243" />
-    <option name="height" value="785" />
+    <option name="x" value="194" />
+    <option name="y" value="22" />
+    <option name="width" value="1246" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -579,16 +587,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="62" width="1243" height="785" extended-state="0" />
+    <frame x="194" y="22" width="1246" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21031097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23673469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25487256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2236842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -609,11 +617,11 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25526315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25487256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12581345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21031097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -636,20 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Lecture/40617-Inheritance/mainprogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Lecture/40617-Inheritance/ZoomRanged.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Lecture/40617-Inheritance/Ranged.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -788,27 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/vacations.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITP115_a10_Tu_Jean/Being.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -859,21 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="2299" column="46" lean-forward="true" selection-start-line="2299" selection-start-column="46" selection-end-line="2299" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Lecture/41817/Superhero.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -898,48 +856,47 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Lecture/41817/Application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/yesmas" />
-    <entry file="file://$PROJECT_DIR$/../Lecture/Test/askQuestionGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#20#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt">
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py">
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/vacations.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="103" lean-forward="false" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/excuse.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lecture/Test/askQuestionGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#20#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -949,24 +906,82 @@
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="2288" column="0" lean-forward="false" selection-start-line="2288" selection-start-column="0" selection-end-line="2288" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lecture/41817/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="70" column="55" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/hallpass.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="83" lean-forward="true" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Story.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/readme.txt">
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/MadLib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/master.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/spice.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="190" lean-forward="false" selection-start-line="0" selection-start-column="190" selection-end-line="0" selection-end-column="190" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/Stories/greek.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="448" lean-forward="false" selection-start-line="0" selection-start-column="448" selection-end-line="0" selection-end-column="448" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITP115_project_Tu_Jean/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="133" column="33" lean-forward="false" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

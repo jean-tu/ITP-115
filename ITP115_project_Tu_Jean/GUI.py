@@ -1,6 +1,5 @@
 from tkinter import *
 import tkinter.messagebox
-from tkinter.scrolledtext import ScrolledText
 from MadLib import MadLib
 from Story import Story
 
@@ -121,9 +120,39 @@ class GUI(Frame):
 
     def showStory(self, selectedStory): #this will grab the text from the sotyr
         storyFile =  open("Stories/" + selectedStory.rstrip(), "r") #go into the folder to get the stories
+
+        #remove the items from previous window
+        self.madLibsStoryList.grid_remove()
+        self.selectStoryButton.grid_remove()
+
+
         story = "" #starts off blank
         for line in storyFile:
             story += line
-        self.mlObject.parser(story)
 
+        self.madLibLabel = Label(self, text="Replace all of the words with _someWord_ and hear your story by clicking the Read button",
+                                 anchor=W)
+        self.madLibLabel.grid()
 
+        self.storyTextBox = Text(self, width= 40, height=15)
+        self.storyTextBox.grid()
+        self.storyTextBox.insert(END, story)  # adding the liens to the file
+
+        #buttons to read & save
+        self.readButton2 = Button(self, text="Read aloud", command=self.callReadMadLib)
+        self.readButton2.grid()
+
+        self.saveLabel2 = Label(self, text="Enter a filename to save your story")
+        self.saveLabel2.grid()
+        self.saveFileName2 = Entry(self, width=20)
+        self.saveFileName2.grid()
+        self.saveButton2 = Button(self, text="Save File!", command=self.saveStory)
+        self.saveButton2.grid()
+
+    def callReadMadLib(self):
+        if self.storyTextBox.get("0.0",END) != "": #will only call on it if the box is filled out
+            if self.storyTextBox.get("0.0",END) != "Story here": #will only read it if it's not default text
+                self.mlObject.read(self.storyTextBox.get("0.0",END)) #will read the text
+        else:
+            msg = "Please enter some text to be read!"
+            tkinter.messagebox.showinfo("Nothing to Read!", msg)
