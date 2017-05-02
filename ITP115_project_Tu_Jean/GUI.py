@@ -87,7 +87,8 @@ class GUI(Frame):
 
     def callRead(self):
         if self.storyBox.get() != "": #will only call on it if the box is filled out
-            self.story.read(self.storyBox.get()) #will read the text
+            if self.storyBox.get() != "Story here": #will only read it if it's not default text
+                self.story.read(self.storyBox.get()) #will read the text
         else:
             msg = "Please enter some text to be read!"
             # self.story.read(msg)  # will read the text to tell the user to enter text
@@ -95,15 +96,14 @@ class GUI(Frame):
 
     def saveStory(self):
         if self.storyBox.get() != "": #will only call on it if the box is filled out
-            self.story.read(self.storyBox.get()) #will read the text
-
             #get the text from the save box
             if self.saveFileName.get() != "":
                 #check if the end of the file is a .txt, if not add it
-                fileName = self.saveFileName.get()
-                if ".txt" not in fileName:
-                    fileName += ".txt" #append it at the end
-                self.story.save(self.storyBox.get(), self.saveFileName.get())
+                print("old filename " + self.saveFileName.get()) #debugg
+                self.fileName = self.saveFileName.get()
+                if ".txt" not in self.fileName:
+                    self.fileName += ".txt" #append it at the end
+                self.story.save(self.storyBox.get(), self.fileName)
             else:
                 tkinter.messagebox.showinfo("No filename!", "Please enter a filename!")
 

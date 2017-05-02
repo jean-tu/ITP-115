@@ -5,5 +5,5 @@ or if they would like to create their own story. The own story is pretty simple 
 that they want into the text box and then click the read button and it will be read out to them and they have the
 choice of whether or not they want to save the story or continue editing.
 
-The Stories folder contains all of the stories for the madlibs. The file "master.txt" is the file with all of the
+The Stories folder contains all of the stories for the MadLibs. The file "master.txt" is the file with all of the
 other stories titles to know which stories to read in.
