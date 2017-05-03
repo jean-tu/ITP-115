@@ -130,12 +130,13 @@ class GUI(Frame):
         story = "" #starts off blank
         for line in storyFile:
             story += line
-        storyFile.close() #close the file after done reading from it 
+        storyFile.close() #close the file after done reading from it
         self.madLibLabel = Label(self, text="Replace all of the words with _someWord_ and hear your story by clicking the Read button",
                                  wraplength=250)
         self.madLibLabel.grid()
 
-        self.storyTextBox = Text(self, width= 50, height=15)
+        self.storyTextBox = Text(self, width= 50, height=10)
+        self.storyTextBox.config(background="beige")
         self.storyTextBox.grid()
         self.storyTextBox.insert(END, story)  # adding the liens to the file
 
