@@ -51,7 +51,7 @@ class GUI(Frame):
 
         self.saveLabel = Label(self, text="Enter a filename to save your story")
         self.saveLabel.grid()
-        self.saveFileName = Entry(self, width=45)
+        self.saveFileName = Entry(self, width=35)
         self.saveFileName.grid()
         self.saveButton = Button(self, text="Save Story", command=self.saveStory)
         self.saveButton.grid()
@@ -130,12 +130,12 @@ class GUI(Frame):
         story = "" #starts off blank
         for line in storyFile:
             story += line
-
+        storyFile.close() #close the file after done reading from it 
         self.madLibLabel = Label(self, text="Replace all of the words with _someWord_ and hear your story by clicking the Read button",
-                                 wraplength=200)
+                                 wraplength=250)
         self.madLibLabel.grid()
 
-        self.storyTextBox = Text(self, width= 50, height=25)
+        self.storyTextBox = Text(self, width= 50, height=15)
         self.storyTextBox.grid()
         self.storyTextBox.insert(END, story)  # adding the liens to the file
 
@@ -149,6 +149,7 @@ class GUI(Frame):
         self.saveFileName2.grid()
         self.saveButton2 = Button(self, text="Save File!", command=self.saveStory)
         self.saveButton2.grid()
+
 
     def callReadMadLib(self):
         if self.storyTextBox.get("0.0",END) != "": #will only call on it if the box is filled out
