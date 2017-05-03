@@ -2,6 +2,7 @@ from tkinter import *
 import tkinter.messagebox
 from MadLib import MadLib
 from Story import Story
+from tkinter import font
 
 class GUI(Frame):
     def __init__(self, master):
@@ -131,10 +132,10 @@ class GUI(Frame):
             story += line
 
         self.madLibLabel = Label(self, text="Replace all of the words with _someWord_ and hear your story by clicking the Read button",
-                                 anchor=W)
+                                 wraplength=200)
         self.madLibLabel.grid()
 
-        self.storyTextBox = Text(self, width= 40, height=15)
+        self.storyTextBox = Text(self, width= 50, height=25)
         self.storyTextBox.grid()
         self.storyTextBox.insert(END, story)  # adding the liens to the file
 
