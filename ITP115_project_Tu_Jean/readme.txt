@@ -18,3 +18,5 @@ HOW TO RUN
     4b) Mad Libs
         5) Replace the words with the underscores _around_ them
         6) Read the story or save it
+
+I tested my program by coming in to OH for Brandon on Friday 5/5 around 2:10 PM and the speech dictation aspect worked.
